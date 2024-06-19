@@ -24,42 +24,42 @@ const ChatList = () => {
       </div>
 
       {/* chats */}
-      <div className="flex items-center p-5 gap-5 cursor-pointer   border-b-[1px] hover:backdrop-opacity-55">
+      <div className="flex items-center p-2 gap-5 cursor-pointer   border-b-[1px] hover:backdrop-opacity-55">
         <img className="rounded-full w-12 h-12" src="./avatar.png" alt="" />
         <div className="text-white">
           <span className="font-medium">Mehmet Doe</span>
           <p>Hello</p>
         </div>
       </div>
-      <div className="flex items-center p-5 gap-5 cursor-pointer  border-b-[1px]    hover:backdrop-opacity-55">
+      <div className="flex items-center p-2 gap-5 cursor-pointer  border-b-[1px]    hover:backdrop-opacity-55">
         <img className="rounded-full w-12 h-12" src="./avatar.png" alt="" />
         <div className="">
           <span>Mehmet Doe</span>
           <p>Hello</p>
         </div>
       </div>
-      <div className="flex items-center p-5 gap-5 cursor-pointer border-b-[1px]   hover:backdrop-opacity-55">
+      <div className="flex items-center p-2 gap-5 cursor-pointer border-b-[1px]   hover:backdrop-opacity-55">
         <img className="rounded-full w-12 h-12" src="./avatar.png" alt="" />
         <div className="">
           <span>Mehmet Doe</span>
           <p>Hello</p>
         </div>
       </div>
-      <div className="flex items-center p-5 gap-5 cursor-pointer border-b-[1px]   hover:backdrop-opacity-55">
+      <div className="flex items-center p-2 gap-5 cursor-pointer border-b-[1px]   hover:backdrop-opacity-55">
         <img className="rounded-full w-12 h-12" src="./avatar.png" alt="" />
         <div className="">
           <span>Mehmet Doe</span>
           <p>Hello</p>
         </div>
       </div>
-      <div className="flex items-center p-5 gap-5 cursor-pointer border-b-[1px]   hover:backdrop-opacity-55">
+      <div className="flex items-center p-2 gap-5 cursor-pointer border-b-[1px]   hover:backdrop-opacity-55">
         <img className="rounded-full w-12 h-12" src="./avatar.png" alt="" />
         <div className="">
           <span>Mehmet Doe</span>
           <p>Hello</p>
         </div>
       </div>
-      <div className="flex items-center p-5 gap-5 cursor-pointer border-b-[1px]  hover:backdrop-opacity-55 ">
+      <div className="flex items-center p-2 gap-5 cursor-pointer border-b-[1px]  hover:backdrop-opacity-55 ">
         <img className="rounded-full w-12 h-12" src="./avatar.png" alt="" />
         <div className="">
           <span>Mehmet Doe</span>
