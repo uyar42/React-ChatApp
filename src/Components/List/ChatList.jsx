@@ -4,9 +4,9 @@ const ChatList = () => {
   const [changeMode, setChangeMode] = useState(false);
   return (
     // serachbar
-    <div className="flex-1  overflow-y-scroll scroll">
-      <div className="flex items-center gap-5 p-5">
-        <div className="flex-1 flex p-2  items-center text-white gap-5 rounded-lg bg-opacity-40 bg-orange-600">
+    <div className="flex-1  overflow-y-scroll scroll ">
+      <div className="flex items-center gap-5 p-5 sticky top-0 z-10 bg-opacity-80 bg-slate-900 ">
+        <div className="flex-1 flex p-2   items-center text-white gap-5 rounded-lg bg-orange-600 bg-opacity-80">
           <img className="h-5 w-5 cursor-pointer" src="./search.png" alt="" />
           <input
             className="bg-transparent outline-none border-none flex-1"
@@ -24,42 +24,42 @@ const ChatList = () => {
       </div>
 
       {/* chats */}
-      <div className="flex items-center p-5 gap-5 cursor-pointer border-b-2 hover:backdrop-opacity-55">
+      <div className="flex items-center p-5 gap-5 cursor-pointer   border-b-[1px] hover:backdrop-opacity-55">
+        <img className="rounded-full w-12 h-12" src="./avatar.png" alt="" />
+        <div className="text-white">
+          <span className="font-medium">Mehmet Doe</span>
+          <p>Hello</p>
+        </div>
+      </div>
+      <div className="flex items-center p-5 gap-5 cursor-pointer  border-b-[1px]    hover:backdrop-opacity-55">
         <img className="rounded-full w-12 h-12" src="./avatar.png" alt="" />
         <div className="">
           <span>Mehmet Doe</span>
           <p>Hello</p>
         </div>
       </div>
-      <div className="flex items-center p-5 gap-5 cursor-pointer border-b-2    hover:backdrop-opacity-55">
+      <div className="flex items-center p-5 gap-5 cursor-pointer border-b-[1px]   hover:backdrop-opacity-55">
         <img className="rounded-full w-12 h-12" src="./avatar.png" alt="" />
         <div className="">
           <span>Mehmet Doe</span>
           <p>Hello</p>
         </div>
       </div>
-      <div className="flex items-center p-5 gap-5 cursor-pointer border-b-2   hover:backdrop-opacity-55">
+      <div className="flex items-center p-5 gap-5 cursor-pointer border-b-[1px]   hover:backdrop-opacity-55">
         <img className="rounded-full w-12 h-12" src="./avatar.png" alt="" />
         <div className="">
           <span>Mehmet Doe</span>
           <p>Hello</p>
         </div>
       </div>
-      <div className="flex items-center p-5 gap-5 cursor-pointer border-b-2   hover:backdrop-opacity-55">
+      <div className="flex items-center p-5 gap-5 cursor-pointer border-b-[1px]   hover:backdrop-opacity-55">
         <img className="rounded-full w-12 h-12" src="./avatar.png" alt="" />
         <div className="">
           <span>Mehmet Doe</span>
           <p>Hello</p>
         </div>
       </div>
-      <div className="flex items-center p-5 gap-5 cursor-pointer border-b-2   hover:backdrop-opacity-55">
-        <img className="rounded-full w-12 h-12" src="./avatar.png" alt="" />
-        <div className="">
-          <span>Mehmet Doe</span>
-          <p>Hello</p>
-        </div>
-      </div>
-      <div className="flex items-center p-5 gap-5 cursor-pointer border-b-2  hover:backdrop-opacity-55 ">
+      <div className="flex items-center p-5 gap-5 cursor-pointer border-b-[1px]  hover:backdrop-opacity-55 ">
         <img className="rounded-full w-12 h-12" src="./avatar.png" alt="" />
         <div className="">
           <span>Mehmet Doe</span>

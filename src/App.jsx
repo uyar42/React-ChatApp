@@ -5,7 +5,7 @@ import Detail from "./Components/Detail";
 function App() {
   return (
     <>
-      <div className="h-[90vh] w-[90vw] rounded-lg  bg-opacity-75 bg-black backdrop-blur-md flex flex-row">
+      <div className="h-[90vh] w-[90vw] rounded-lg bg-opacity-30 bg-black  backdrop-blur-md flex flex-row">
         <List></List>
         <Chat></Chat>
         <Detail></Detail>
