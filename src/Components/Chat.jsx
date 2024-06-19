@@ -43,7 +43,65 @@ const Chat = () => {
           />
         </div>
       </div>
-      <div className="flex-1 p-5"></div>
+      <div className="flex-1 p-5 gap-5 flex flex-col overflow-scroll">
+        <div className="max-w-[70%] flex gap-5">
+          <img className="h-6 w-6 rounded-full" src="./avatar.png" alt="" />
+          <div>
+            <p className="text-white p-3 bg-main rounded-lg">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos hic
+              quod nemo sunt. Numquam, vero aperiam? Doloribus voluptates
+              facilis tempore.
+            </p>
+            <span className="text-sm ">1 min ago</span>
+          </div>
+        </div>
+        <div className="max-w-[70%] flex gap-5 self-end">
+          <div>
+            <p className="text-white p-3 bg-orange-800 bg-opacity-50 rounded-lg">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos hic
+              quod nemo sunt. Numquam, vero aperiam? Doloribus voluptates
+              facilis tempore.
+            </p>
+            <span className="text-sm ">1 min ago</span>
+          </div>
+        </div>
+        <div className="max-w-[70%] flex gap-5">
+          <img className="h-6 w-6 rounded-full" src="./avatar.png" alt="" />
+          <div>
+            <p className="text-white p-3 bg-main rounded-lg">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos hic
+              quod nemo sunt. Numquam, vero aperiam? Doloribus voluptates
+              facilis tempore.
+            </p>
+            <span className="text-sm ">1 min ago</span>
+          </div>
+        </div>
+        <div className="max-w-[70%] flex gap-5 self-end">
+          <div>
+            <p className="text-white p-3 bg-orange-800 bg-opacity-50 rounded-lg">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos hic
+              quod nemo sunt. Numquam, vero aperiam? Doloribus voluptates
+              facilis tempore.
+            </p>
+            <span className="text-sm ">1 min ago</span>
+          </div>
+        </div>
+        <div className="max-w-[70%] flex gap-5 self-end">
+          <div>
+            <img
+              className="w-full h-[250px] rounded-lg object-cover"
+              src="https://images.pexels.com/photos/18374429/pexels-photo-18374429/free-photo-of-duvar-tepe-lamba-antik.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+              alt=""
+            />
+            <p className="text-white p-3 bg-orange-800 bg-opacity-50 rounded-lg">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos hic
+              quod nemo sunt. Numquam, vero aperiam? Doloribus voluptates
+              facilis tempore.
+            </p>
+            <span className="text-sm ">1 min ago</span>
+          </div>
+        </div>
+      </div>
       <div className="flex p-5 items-center justify-between gap-5 border-t-[1px] mt-auto">
         <div className="flex gap-5">
           <img className="w-5 h-5 cursor-pointer" src="./img.png" alt="" />
